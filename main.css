@@ -1,0 +1,103 @@
+body {
+	background-color: #000162;
+}
+
+.buffer {
+	padding-top: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Login*/
+.login-area {
+	width:200px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.login-area .cleveland-police-logo {
+	width:100%;
+}
+
+.login-area .cleveland-police-logo img {
+	width: 100%;
+
+}
+
+.login-area .login-form p {
+	color: white;
+	margin: 5px 0px;
+}
+
+.login-area .login-form input {
+	width: 100%;
+}
+
+/*Search Page*/
+
+.search-box {
+	width: 350px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color: #ddd;
+}
+
+.search-box .search-title-bar {
+	background-color: #004080;
+	color:white;
+	font-family: serif;
+	font-style: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.search-box .search-button {
+	float: right;
+	padding: 5px 20px;
+	border-width: 1px;
+	border-color: white black black white;
+	border-style: solid;
+	margin: 2px 5px 2px 0;
+	background-color: inherit;
+	font-family: "leviwindowsextralight";
+	font-size: 1.5em;
+}
+
+.search-box .search-form-box {
+	padding: 10px 50px 10px 50px;
+	border-color: white black black white;
+	border-style: solid;
+	border-width: 1px;
+	margin: -20px 5px 2px 5px;
+}
+
+.search-box .search-form-box .search-form {
+
+}
+
+.search-box .search-form-box .search-form .form-label {
+	font-family: "leviwindowsextralight";
+	font-size: 2em;
+}
+
+.search-box .search-form-box .search-form input {
+	border-width: 1px;
+	border-color: black white white black;
+	border-style: solid;
+}
+
+/*search results*/
+.results-image-holder {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 500px;
+}
+
+.results-image-holder img {
+	width: 100%;
+}
+

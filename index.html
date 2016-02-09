@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cleveland Police Database</title>
+	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" href="assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="main.css">
+
+
+</head>
+<body>
+	<div class="buffer">
+		
+	</div>
+	
+	<div class="login-area">
+		<div class="cleveland-police-logo">
+			<img src="assets/images/Element-01-Login.png" alt="">
+		</div>
+		<div class="login-form">
+			<p>Username</p>
+			<input type="text">
+			<br>
+			<p>Password</p>
+			<input type="password" id="password-input">
+		</div>
+	</div>
+	
+
+</body>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+	$('#password-input').keypress(function(event){
+		if (event.which == 13){
+			window.location.href = "search.html";
+		}
+	});
+});
+	</script>
+</html>

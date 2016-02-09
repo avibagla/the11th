@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Search Database</title>
+		<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" href="assets/fonts/stylesheet.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+	<body>
+		<div class="buffer"></div>
+		<div class="search-box">
+			<div class="search-title-bar">
+				<h4 class="search-title">Data Search</h4>
+			</div>
+			<div class="search-form-box">
+				<div class="search-form">
+					<table>
+						<tr>
+							<td class="form-label">Name</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td class="form-label">SSN</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td class="form-label">Case #</td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<button class="search-button">Search</button>
+			<div class="clear"></div>
+		</div>
+		
+	</body>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.search-button').click(function(e){
+			window.location.href = "searchresults.html";
+		});
+	})
+	</script>
+</html>

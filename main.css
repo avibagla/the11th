@@ -114,4 +114,17 @@ body {
 	width: 100%;
 }
 
+/*Newspaper*/
+.paper-image-holder {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 550px;
+}
+
+.paper-image-holder img {
+	width: 100%;
+}
+
 

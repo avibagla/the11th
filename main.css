@@ -101,3 +101,17 @@ body {
 	width: 100%;
 }
 
+/*Jessica*/
+.jessica-image-holder {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 400px;
+}
+
+.jessica-image-holder img {
+	width: 100%;
+}
+
+
